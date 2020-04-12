@@ -1,0 +1,16 @@
+#project-section {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 40px;
+}
+
+.project-card {
+  width: 32vw;
+  background-color: white;
+  box-shadow: 7px 4px 8px -9px #000000;
+  margin: 40px 40px 0 40px;
+  &:hover {
+    box-shadow: 8px 5px 9px -9px #000000;
+  }
+}

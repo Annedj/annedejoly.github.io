@@ -1,0 +1,41 @@
+// Specific CSS for your home-page
+body {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.home-image {
+  height: 100vh;
+  background-position: bottom right;
+  object-fit: cover;
+  // background-size: 100% 82%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  color: white;
+  font-size: 46px;
+}
+
+.section-title {
+  padding: 0 40px;
+  height: 15vh;
+  line-height: 15vh;
+  background-color: $green;
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 0;
+}

@@ -1,0 +1,37 @@
+.nav-container {
+  width: 15vw;
+  height: 100vh;
+  white-space: nowrap;
+  position: sticky;
+  top: 4px;
+  box-shadow: 7px 0px 8px -9px #000000;
+  background-color: white;
+}
+
+.main-infos {
+  height: 30vh;
+  padding: 35px 15px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgrey;
+  > h1, p {
+    margin: 0;
+  }
+  > p {
+    padding-top: 24px;
+    color: #244051;
+  }
+}
+
+.menu-navbar {
+  list-style: none;
+  padding: 32px;
+  margin-top: 16px;
+}
+
+.menu-navbar li {
+  padding: 8px 0;
+  color: #244051;
+  &:hover {
+    font-weight: bold;
+  }
+}

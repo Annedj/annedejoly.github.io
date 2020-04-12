@@ -1,1 +1,273 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anne de Joly | Full Stack Developer</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="nav-container fixed-left">
+      <div class="main-infos">
+        <h1>Anne <br>de Joly</h1>
+        <p>Full-stack developer</p>
+      </div>
+
+      <ul class="menu-navbar">
+        <li>About</li>
+        <li>Experience</li>
+        <li>Projects</li>
+        <li>Skills</li>
+        <li>Education</li>
+        <li>Contact</li>
+        <li>Hobbies</li>
+        <li>Resume</li>
+      </ul>
+    </div>
+
+    <main>
+      <!-- Banner -->
+      <div class="home-background-image">
+        <%= image_tag "wagon-anne", alt: "mac", class: 'home-image' %>
+        <h2>Junior full-stack developer.</h2>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+
+
+        <!-- About -->
+
+        <div id="about-section">
+          <h3 class="section-title">About</h3>
+          <h5 class="quote">Junior full-stack developer, Ruby on Rails focused.</h5>
+          <p class="paragraph-description">As part of a career change, I recently decided to dive into coding by following an intensive and captivating bootcamp to learn full-stack development, focusing on <span class="green">Ruby on Rails, HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, relational DB design and SQL queries, Sinatra, git, GitHub, and hosting on Heroku</span> and I now found a field that passionates me! <br>
+            I am now looking for a full-stack or back-end developer role with a focus on Ruby on Rails. <br>
+            Graduated from EDHEC Business School in 2018 with a double diploma in Business Management, I have previously worked in consulting, mostly in the retail industry. More recently, I worked in a software company as a customer success manager. </p>
+          <h5 class="focus">Available</h5>
+        </div>
+
+        <!-- Experience -->
+
+        <div id="experience-section">
+          <h3 class="section-title">Experience</h3>
+
+          <div class="experience-card">
+            <div class="company-infos d-flex justify-content-between align-items-center">
+              <h5 class="job-title">Full-stack coding student</h5>
+              <h5 class="company">Le Wagon</h5>
+            </div>
+            <div class="job-infos">
+              <p class="job-description">9-week intensive coding bootcamp learning HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, relational DB design and SQL queries, git, GitHub, Heroku and Ruby on Rails. Core concepts of object-oriented programming (OOP). Software structuring following design patterns like MVC. Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of grocery shopping website, telling customers where to shop to have the lowest impact on the planet and giving product recommandations for more seasonal and greener products.</p>
+              <p class="job-date">Jan 20 - March 20 | London</p>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-infos d-flex justify-content-between align-items-center">
+              <h5 class="job-title">Customer Success Manager</h5>
+              <h5 class="company">CleanCloud</h5>
+            </div>
+            <div class="job-infos">
+              <p class="job-description">Cloud-based SaaS solution with 5,000 clients in 70 countries. Leading POS for dry-cleaning businesses. Onboarding of new customers and ongoing training, account management and support of existing customers. Handling of escalated Zendesk tickets and managing the support team.</p>
+              <p class="job-date">Jul 19 - Dec 19 | London</p>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-infos d-flex justify-content-between align-items-center">
+              <h5 class="job-title">Digital & Retail Consultant</h5>
+              <h5 class="company">B.D.C. Digital Retail Consulting</h5>
+            </div>
+            <div class="job-infos">
+              <p class="job-description"><em>Consulting role:</em>
+                • Supported innovative start-ups in their business development in the UK or France and retailers in their international development, digital transformation, or e-commerce strategies
+                • Organised and led ‘Learning Expeditions’ in the UK to help retailers and entrepreneurs discovering the latest digital commerce innovations by visiting concept stores and meeting with leading retail actors
+                • Monitored market trends, competitor analysis and remained up to date with digital and retail trends
+                <br><br>
+                <em>Sales and marketing role:</em>
+                • Led and monitored B.D.C. UK presence on social media and its website and developed the UK sales strategy.
+                • Wrote articles for the retail blog and bi-monthly newsletters</p>
+              <p class="job-date">Jun 18 - March 19 | London</p>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-infos d-flex justify-content-between align-items-center">
+              <h5 class="job-title">Tech Recruiter</h5>
+              <h5 class="company">Orcan Intelligence</h5>
+            </div>
+            <div class="job-infos">
+              <p class="job-description">Sourced Business Intelligence and Analytics contractors specialists across Europe, mostly for banks and telecoms.
+                Screened CVs, contacted and evaluated candidates.
+                Understanding of the BI field and recruitment of the best contractors in BI (back-end developers, architects, data modelers, with salaries varying from £500 - £1,500 a day).</p>
+              <p class="job-date">Apr 17 - July 17 | London</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project -->
+
+        <h3 class="section-title">Projects</h3>
+        <div id="project-section">
+          <div class="project-card">
+            <h5 class="quote">emitless</h5>
+          </div>
+
+          <div class="project-card">
+            <h5 class="quote">re-useful</h5>
+          </div>
+        </div>
+
+        <!-- Skills -->
+
+        <h3 class="section-title">Skills</h3>
+        <div id="skills-section">
+          <div class="skills-card">
+            <h5 class="skills-title">Languages</h5>
+            <div class="skills-flex">
+              <div class="skill">
+                <%= image_tag "french", alt: "French croissant" %>
+                <p>French | Fluent</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "english", alt: "English breakfast" %>
+                <p>English | Fluent</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "spanish", alt: "Spanish sangria" %>
+                <p>Spanish | Intermediate</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills-card">
+            <h5 class="skills-title">Development</h5>
+            <div class="skills-flex-dev">
+              <div class="skill">
+                <%= image_tag "html", alt: "HTML" %>
+                <p>HTML5</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "css3", alt: "CSS" %>
+                <p>CSS3</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "sass", alt: "SASS" %>
+                <p>SASS</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "bootstrap", alt: "Bootstrap" %>
+                <p>Bootstrap</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "javascript", alt: "JavaScript" %>
+                <p>JavaScript</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "jquery", alt: "jQuery" %>
+                <p>jQuery</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "ruby", alt: "Ruby" %>
+                <p>Ruby</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "rails", alt: "Rails" %>
+                <p>Rails</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "postgresql", alt: "PostgreSQL" %>
+                <p>PostgreSQL</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "github", alt: "GitHub" %>
+                <p>GitHub</p>
+              </div>
+              <div class="skill">
+                <%= image_tag "heroku", alt: "Heroku" %>
+                <p>Heroku</p>
+              </div>
+              <div class="skill">
+                <p>SQL</p>
+              </div>
+              <div class="skill">
+                <p>JSON API</p>
+              </div>
+              <div class="skill">
+                <p>Nokogiri</p>
+              </div>
+              <div class="skill">
+                <p>ActiveRecord</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills-card">
+            <h5 class="skills-title">Office</h5>
+            <div class="skills-flex-dev">
+              <div class="skill">
+                <p>Pack Office</p>
+              </div>
+              <div class="skill">
+                <p>Zendesk</p>
+              </div>
+              <div class="skill">
+                <p>JIRA</p>
+              </div>
+              <div class="skill">
+                <p>Wordpress</p>
+              </div>
+              <div class="skill">
+                <p>Wix</p>
+              </div>
+              <div class="skill">
+                <p>Figma</p>
+              </div>
+              <div class="skill">
+                <p>Notion</p>
+              </div>
+              <div class="skill">
+                <p>Trello</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills-card">
+            <h5 class="skills-title">Soft skills</h5>
+            <div class="skills-flex-dev">
+              <div class="skill">
+                <p>Presentation skills</p>
+              </div>
+              <div class="skill">
+                <p>Account management</p>
+              </div>
+              <div class="skill">
+                <p>Customer Success</p>
+              </div>
+              <div class="skill">
+                <p>Teaching and training</p>
+              </div>
+              <div class="skill">
+                <p>Teaching and training</p>
+              </div>
+              <div class="skill">
+                <p>Teaching and training</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+
+        <h3 class="section-title">Skills</h3>
+
+      </div>
+    </main>
+
+  </body>
+</html>
