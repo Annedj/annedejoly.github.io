@@ -9,9 +9,10 @@
   background-color: white;
   box-shadow: 7px 4px 8px -9px #000000;
   margin: 50px auto 20px auto;
-  &:hover {
-    box-shadow: 8px 5px 9px -9px #000000;
-  }
+}
+
+.skills-card:hover {
+  box-shadow: 8px 5px 9px -9px #000000;
 }
 
 .skills-title {
@@ -38,12 +39,14 @@
 .skill {
   text-align: center;
   margin: auto;
-  > img {
-    width: 50px;
-    padding: 5px;
-  }
-  > p {
-    margin: 0;
-    padding: 8px;
-  }
+}
+
+.skill img {
+  width: 50px;
+  padding: 5px;
+}
+
+.skill p {
+  margin: 0;
+  padding: 8px;
 }

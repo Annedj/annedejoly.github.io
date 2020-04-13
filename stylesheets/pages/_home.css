@@ -1,4 +1,4 @@
-// Specific CSS for your home-page
+/*// Specific CSS for your home-page*/
 body {
   display: grid;
   grid-template-columns: min-content 1fr;
@@ -16,7 +16,7 @@ body {
   height: 100vh;
   background-position: bottom right;
   object-fit: cover;
-  // background-size: 100% 82%;
+  /*background-size: 100% 82%;*/
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -33,7 +33,7 @@ h2 {
   padding: 0 40px;
   height: 15vh;
   line-height: 15vh;
-  background-color: $green;
+  background-color: #008073;
   color: white;
   font-size: 50px;
   text-transform: uppercase;

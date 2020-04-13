@@ -7,18 +7,20 @@
   box-shadow: 7px 4px 8px -9px #000000;
   margin: 50px auto 20px auto;
   text-align: center;
-  &:hover {
-    box-shadow: 8px 5px 9px -9px #000000;
-  }
+}
+
+.experience-card:hover {
+  box-shadow: 8px 5px 9px -9px #000000;
 }
 
 .company-infos {
   text-transform: uppercase;
   padding: 16px 20px;
   border-bottom: 1px solid lightgrey;
-  > h5 {
-    margin: 0;
-  }
+}
+
+.company-infos h5 {
+  margin: 0;
 }
 
 .job-infos {

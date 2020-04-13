@@ -1,4 +1,4 @@
-p {
-  font-color: #343434; }
+@import url('https://fonts.googleapis.com/css?family=Karla|Roboto:100&display=swap');
 
-/*# sourceMappingURL=style.css.map */
+@import 'pages/index'
+@import 'sections/index'

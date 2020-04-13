@@ -10,7 +10,8 @@
   background-color: white;
   box-shadow: 7px 4px 8px -9px #000000;
   margin: 40px 40px 0 40px;
-  &:hover {
-    box-shadow: 8px 5px 9px -9px #000000;
-  }
+}
+
+.project-card:hover {
+  box-shadow: 8px 5px 9px -9px #000000;
 }
