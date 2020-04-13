@@ -17,7 +17,7 @@
     <!-- Navbar -->
     <div class="nav-container fixed-left">
       <div class="main-infos">
-        <h1>Anne <br>de Joly</h1>
+        <a href="#home" class='link'><h1>Anne <br>de Joly</h1></a>
         <p>Full-stack developer</p>
       </div>
 
@@ -26,9 +26,8 @@
         <li>Experience</li>
         <li>Projects</li>
         <li>Skills</li>
-        <li>Education</li>
+        <li>Education & Hobbies</li>
         <li>Contact</li>
-        <li>Hobbies</li>
         <li>Resume</li>
       </ul>
     </div>
@@ -41,12 +40,12 @@
       </div>
 
       <!-- Content -->
-      <div class="content">
+      <div class="content" id="home">
 
 
         <!-- About -->
 
-        <div id="about-section">
+        <div id="about-section" id="about">
           <h3 class="section-title">About</h3>
           <h5 class="quote">Junior full-stack developer, Ruby on Rails focused.</h5>
           <p class="paragraph-description">As part of a career change, I recently decided to dive into coding by following an intensive and captivating bootcamp to learn full-stack development, focusing on <span class="green">Ruby on Rails, HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, relational DB design and SQL queries, Sinatra, git, GitHub, and hosting on Heroku</span> and I now found a field that passionates me! <br>
@@ -57,16 +56,18 @@
 
         <!-- Experience -->
 
-        <div id="experience-section">
+        <div id="experience-section" id="experience">
           <h3 class="section-title">Experience</h3>
 
           <div class="experience-card">
             <div class="company-infos d-flex justify-content-between align-items-center">
               <h5 class="job-title">Full-stack coding student</h5>
-              <h5 class="company">Le Wagon</h5>
+              <h5 class="company"><a href="https://www.lewagon.com" target="_blank" class='link'>Le Wagon</a></h5>
             </div>
             <div class="job-infos">
-              <p class="job-description">9-week intensive coding bootcamp learning HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, relational DB design and SQL queries, git, GitHub, Heroku and Ruby on Rails. Core concepts of object-oriented programming (OOP). Software structuring following design patterns like MVC. Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of grocery shopping website, telling customers where to shop to have the lowest impact on the planet and giving product recommandations for more seasonal and greener products.</p>
+              <p class="job-description">9-week intensive coding bootcamp learning HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, relational DB design and SQL queries, git, GitHub, Heroku and Ruby on Rails. </p>
+              <p class="job-description">Core concepts of object-oriented programming (OOP). Software structuring following design patterns like MVC.</p>
+              <p class="job-description">Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of grocery shopping website, telling customers where to shop to have the lowest impact on the planet and giving product recommandations for more seasonal and greener products.</p>
               <p class="job-date">Jan 20 - March 20 | London</p>
             </div>
           </div>
@@ -74,10 +75,11 @@
           <div class="experience-card">
             <div class="company-infos d-flex justify-content-between align-items-center">
               <h5 class="job-title">Customer Success Manager</h5>
-              <h5 class="company">CleanCloud</h5>
+              <h5 class="company"><a href="https://cleancloudapp.com/" target="_blank" class='link'>CleanCloud</a></h5>
             </div>
             <div class="job-infos">
-              <p class="job-description">Cloud-based SaaS solution with 5,000 clients in 70 countries. Leading POS for dry-cleaning businesses. Onboarding of new customers and ongoing training, account management and support of existing customers. Handling of escalated Zendesk tickets and managing the support team.</p>
+              <p class="job-description">Cloud-based SaaS solution with 5,000 clients in 70 countries, leading POS for dry-cleaning businesses.</p>
+              <p class="job-description">Onboarding of new customers and ongoing training, account management and support of existing customers. Handling of escalated Zendesk tickets and managing the support team.</p>
               <p class="job-date">Jul 19 - Dec 19 | London</p>
             </div>
           </div>
@@ -85,17 +87,20 @@
           <div class="experience-card">
             <div class="company-infos d-flex justify-content-between align-items-center">
               <h5 class="job-title">Digital & Retail Consultant</h5>
-              <h5 class="company">B.D.C. Digital Retail Consulting</h5>
+              <h5 class="company"><a href="https://www.bdc-retail.com/uk/home/" target="_blank" class='link'>B.D.C. Digital Retail Consulting</a></h5>
             </div>
             <div class="job-infos">
-              <p class="job-description"><em>Consulting role:</em>
-                • Supported innovative start-ups in their business development in the UK or France and retailers in their international development, digital transformation, or e-commerce strategies
-                • Organised and led ‘Learning Expeditions’ in the UK to help retailers and entrepreneurs discovering the latest digital commerce innovations by visiting concept stores and meeting with leading retail actors
-                • Monitored market trends, competitor analysis and remained up to date with digital and retail trends
-                <br><br>
-                <em>Sales and marketing role:</em>
-                • Led and monitored B.D.C. UK presence on social media and its website and developed the UK sales strategy.
-                • Wrote articles for the retail blog and bi-monthly newsletters</p>
+              <p class="job-description"><em>Consulting role: <br></em></p>
+              <ul class="unstyled-list">
+                <li class="job-description">Supported innovative start-ups in their business development in the UK or France and retailers in their international development, digital transformation, or e-commerce strategies</li>
+                <li class="job-description">Organised and led ‘Learning Expeditions’ in the UK to help retailers and entrepreneurs discovering the latest digital commerce innovations by visiting concept stores and meeting with leading retail actors</li>
+                <li class="job-description">Monitored market trends, competitor analysis and remained up to date with digital and retail trends</li>
+              </ul>
+              <p class='job-description'><em>Sales and marketing role: <br></em></p>
+              <ul class="unstyled-list">
+                <li class="job-description">Led and monitored B.D.C. UK presence on social media and its website and developed the UK sales strategy</li>
+                <li class="job-description">Wrote articles for the retail blog and bi-monthly newsletters</li>
+              </ul>
               <p class="job-date">Jun 18 - March 19 | London</p>
             </div>
           </div>
@@ -103,12 +108,10 @@
           <div class="experience-card">
             <div class="company-infos d-flex justify-content-between align-items-center">
               <h5 class="job-title">Tech Recruiter</h5>
-              <h5 class="company">Orcan Intelligence</h5>
+              <h5 class="company"><a href="https://www.orcanintelligence.com/" target="_blank" class='link'>Orcan Intelligence</a></h5>
             </div>
             <div class="job-infos">
-              <p class="job-description">Sourced Business Intelligence and Analytics contractors specialists across Europe, mostly for banks and telecoms.
-                Screened CVs, contacted and evaluated candidates.
-                Understanding of the BI field and recruitment of the best contractors in BI (back-end developers, architects, data modelers, with salaries varying from £500 - £1,500 a day).</p>
+              <p class="job-description">Sourced Business Intelligence and Analytics contractors specialists across Europe, mostly for banks and telecoms. Screened CVs, contacted and evaluated candidates. Understanding of the BI field and recruitment of the best contractors in BI (back-end developers, architects, data modelers, with salaries varying from £500 - £1,500 a day).</p>
               <p class="job-date">Apr 17 - July 17 | London</p>
             </div>
           </div>
@@ -116,20 +119,30 @@
 
         <!-- Project -->
 
-        <h3 class="section-title">Projects</h3>
+        <h3 class="section-title" id="projects">Projects</h3>
         <div id="project-section">
           <div class="project-card">
-            <h5 class="quote">emitless</h5>
+            <a class="link" target="_blank" href="http://emitless-app.com/">
+              <h5 class="quote">emitless</h5>
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="project-image" src="assets/images/emitless.png" alt="Emitless">
+              </div>
+            </a>
           </div>
 
           <div class="project-card">
-            <h5 class="quote">re-useful</h5>
+            <a class="link" target="_blank" href="https://re-useful.herokuapp.com/">
+              <h5 class="quote">re-useful</h5>
+              <div class="d-flex">
+                <img class="project-image" src="assets/images/reuseful.png" alt="Reuseful">
+              </div>
+            </a>
           </div>
         </div>
 
         <!-- Skills -->
 
-        <h3 class="section-title">Skills</h3>
+        <h3 class="section-title" id="skills">Skills</h3>
         <div id="skills-section">
           <div class="skills-card">
             <h5 class="skills-title">Languages</h5>
@@ -184,6 +197,14 @@
                 <p>Rails</p>
               </div>
               <div class="skill">
+                <img src="assets/images/react.svg" alt="React">
+                <p>React</p>
+              </div>
+              <div class="skill">
+                <img src="assets/images/redux.png" alt="Redux">
+                <p>Redux</p>
+              </div>
+              <div class="skill">
                 <img src="assets/images/postgresql.png" alt="PostgreSQL">
                 <p>PostgreSQL</p>
               </div>
@@ -196,15 +217,19 @@
                 <p>Heroku</p>
               </div>
               <div class="skill">
+                <img src="assets/images/sql.jpg" alt="SQL">
                 <p>SQL</p>
               </div>
               <div class="skill">
+                <img src="assets/images/json.png" alt="JSON">
                 <p>JSON API</p>
               </div>
               <div class="skill">
+                <img src="assets/images/nokogiri.jpg" alt="Nokogiri">
                 <p>Nokogiri</p>
               </div>
               <div class="skill">
+                <img src="assets/images/activerecord.png" alt="ActiveRecord">
                 <p>ActiveRecord</p>
               </div>
             </div>
@@ -213,28 +238,28 @@
             <h5 class="skills-title">Office</h5>
             <div class="skills-flex-dev">
               <div class="skill">
+                <img src="assets/images/office.jpg" alt="Office">
                 <p>Pack Office</p>
               </div>
               <div class="skill">
+                <img src="assets/images/zendesk.png" alt="Zendesk">
                 <p>Zendesk</p>
               </div>
               <div class="skill">
+                <img src="assets/images/jira.png" alt="JIRA">
                 <p>JIRA</p>
               </div>
               <div class="skill">
+                <img src="assets/images/wordpress.png" alt="Wordpress">
                 <p>Wordpress</p>
               </div>
               <div class="skill">
-                <p>Wix</p>
-              </div>
-              <div class="skill">
+                <img src="assets/images/figma.png" alt="Figma">
                 <p>Figma</p>
               </div>
               <div class="skill">
+                <img src="assets/images/notion.png" alt="Notion">
                 <p>Notion</p>
-              </div>
-              <div class="skill">
-                <p>Trello</p>
               </div>
             </div>
           </div>
@@ -251,10 +276,7 @@
                 <p>Customer Success</p>
               </div>
               <div class="skill">
-                <p>Teaching and training</p>
-              </div>
-              <div class="skill">
-                <p>Teaching and training</p>
+                <p>Data Analysis</p>
               </div>
               <div class="skill">
                 <p>Teaching and training</p>
@@ -265,7 +287,59 @@
 
         <!-- Education -->
 
-        <h3 class="section-title">Skills</h3>
+        <h3 class="section-title" id="education">Education & Hobbies</h3>
+        <div id="education-section">
+          <div class="experience-card">
+            <div class="company-infos d-flex justify-content-between align-items-center">
+              <h5 class="job-title">Education</h5>
+              <h5 class="company"><a href="https://www.edhec.edu/en" target="_blank" class='link'>EDHEC Business School</a></h5>
+            </div>
+            <div class="job-infos">
+              <p class="job-description">15th best business school worldwide (FT)</p>
+              <ul>
+                <li class="job-description">Master in Business Management</li>
+                <li class="job-description">MSc in Strategy Consulting & Digital Transformation. (Honours: eq 2:1)</li>
+                <li class="job-description">Explora Digital Certification:
+                  <p>Worked on the marketing of a new trade marketplace by Natixis, based on blockchain.</p></li>
+              </ul>
+              <p class="job-date">Sept 14 - April 18 | Lille, France</p>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-infos d-flex justify-content-between align-items-center">
+              <h5 class="job-title">Charity</h5>
+              <h5 class="company"><a href="https://www.leperenoelestilunrocker.com/" target="_blank" class='link'>Le Père-Noël est-il un rocker?</a></h5>
+            </div>
+            <div class="job-infos">
+              <p class="job-description">During my studies, I was Head of logistics for a charity association, 'Le Père-Noël est-il un rocker?'.</p>
+              <ul>
+                <li class="job-description">Organisation of the 21st edition of a <strong>charity music festival</strong> (5 days, 6k spectators, €200k total budget)</li>
+                <li class="job-description">Booked dates, concert rooms, sound systems, security, first-aid staff (€42k budget for the festival)</li>
+                <li class="job-description">In charge of backstage and managed a team of 80 volunteers during the week</li>
+              </ul>
+              <p class="job-date">Sept 14 - Dec 2015 | Lille, France</p>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-infos d-flex justify-content-between align-items-center">
+              <h5 class="job-title">Hobbies</h5>
+              <h5 class="company"></h5>
+            </div>
+            <div class="skills-flex-dev">
+              <div class="skill">
+                <p>Cooking</p>
+              </div>
+              <div class="skill">
+                <p>Daily practice of yoga</p>
+              </div>
+              <div class="skill">
+                <p>Gardening</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     </main>

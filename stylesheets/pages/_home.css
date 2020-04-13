@@ -48,3 +48,13 @@ h2 {
   text-transform: uppercase;
   margin: 0;
 }
+
+.link {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+}
+
+.link:hover {
+  color: #008073;
+  text-decoration: none;
+}

@@ -24,18 +24,25 @@
 }
 
 .job-infos {
-  padding: 16px 20px;
+  padding: 10px 20px;
   margin-bottom: 40px;
+}
+
+.unstyled-list {
+  padding: 0 4px;
+  list-style: none;
 }
 
 .job-description {
   text-align: justify;
   margin: 0;
-  line-height: 38px;
+  line-height: 34px;
+  padding-bottom: 10px;
 }
 
 .job-date {
   text-align: left;
   margin: 0;
   padding-top: 16px;
+  border-top: 0.7px solid lightgrey;
 }
