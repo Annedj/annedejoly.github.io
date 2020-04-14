@@ -17,11 +17,7 @@
   padding-top: 1px;
 }
 
-.link.contact {
+.pdf {
+  padding-top: 40px;
   margin-top: 20px;
-  color: #008073;
-}
-
-.link.contact:hover {
-  font-size: 25px;
 }

@@ -38,3 +38,8 @@
 .menu-navbar li:hover {
   font-weight: bold;
 }
+
+.list-active {
+  font-weight: bold;
+  color: #008073;
+}

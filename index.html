@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="main.js"></script>
   </head>
 
   <body>
@@ -22,13 +23,13 @@
       </div>
 
       <ul class="menu-navbar">
-        <li><a href="#about-section" class='link'>About</a></li>
-        <li><a href="#experience-section" class='link'>Experience</a></li>
-        <li><a href="#projects" class='link'>Projects</a></li>
-        <li><a href="#skills" class='link'>Skills</a></li>
-        <li><a href="#education" class='link'>Education & Hobbies</a></li>
-        <li><a href="#contact" class='link'>Contact</a></li>
-        <li><a href="#pdf" class='link'>Resume</a></li>
+        <li class='ab'><a href="#about-section" class='link'>About</a></li>
+        <li class='ex'><a href="#experience-section" class='link'>Experience</a></li>
+        <li class='pr'><a href="#projects" class='link'>Projects</a></li>
+        <li class='sk'><a href="#skills" class='link'>Skills</a></li>
+        <li class='ed'><a href="#education" class='link'>Education & Hobbies</a></li>
+        <li class='co'><a href="#contact" class='link'>Contact</a></li>
+        <li class=''><a href="#pdf" class='link'>Resume</a></li>
       </ul>
     </div>
 
@@ -46,7 +47,7 @@
         <!-- About -->
 
         <div id="about-section">
-          <h3 class="section-title">About</h3>
+          <h3 class="ab section-title">About</h3>
           <h5 class="quote">Junior full-stack developer, Ruby on Rails focused.</h5>
           <p class="paragraph-description">As part of a career change, I recently decided to dive into coding by following an intensive and captivating bootcamp to learn full-stack development, focusing on <span class="green">Ruby on Rails, HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, relational DB design and SQL queries, Sinatra, git, GitHub, and hosting on Heroku</span> and I now found a field that passionates me! <br>
             I am now looking for a full-stack or back-end developer role with a focus on Ruby on Rails. <br>
@@ -57,7 +58,7 @@
         <!-- Experience -->
 
         <div id="experience-section">
-          <h3 class="section-title">Experience</h3>
+          <h3 class="ex section-title">Experience</h3>
 
           <div class="experience-card">
             <div class="company-infos d-flex justify-content-between align-items-center">
@@ -119,7 +120,7 @@
 
         <!-- Project -->
 
-        <h3 class="section-title" id="projects">Projects</h3>
+        <h3 class="pr section-title" id="projects">Projects</h3>
         <div id="project-section">
           <div class="project-card">
             <a class="link" target="_blank" href="http://emitless-app.com/">
@@ -142,7 +143,7 @@
 
         <!-- Skills -->
 
-        <h3 class="section-title" id="skills">Skills</h3>
+        <h3 class="sk section-title" id="skills">Skills</h3>
         <div id="skills-section">
           <div class="skills-card">
             <h5 class="skills-title">Languages</h5>
@@ -287,7 +288,7 @@
 
         <!-- Education -->
 
-        <h3 class="section-title" id="education">Education & Hobbies</h3>
+        <h3 class="ed section-title" id="education">Education & Hobbies</h3>
         <div id="education-section">
           <div class="experience-card">
             <div class="company-infos d-flex justify-content-between align-items-center">
@@ -345,7 +346,7 @@
         </div>
 
         <!-- Contact -->
-        <h3 class="section-title" id="contact">Contact</h3>
+        <h3 class="co section-title" id="contact">Contact</h3>
         <div id="contact-section">
           <div class="contact-card">
             <h5 class="contact-quote">Let's stay in touch</h5>
@@ -364,9 +365,9 @@
               </div>
             </div>
           </div>
-          <div class="text-center">
-            <h4 id="pdf"><a class="link" href="assets/images/resume.jpg" download>Download my resume</a></h4>
-          </div>
+        </div>
+        <div class="text-center">
+          <h4><a class="link pdf" href="assets/images/resume.jpg" download>Download my resume</a></h4>
         </div>
 
         <!-- Footer -->
