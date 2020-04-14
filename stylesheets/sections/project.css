@@ -1,12 +1,13 @@
 #project-section {
-  height: 80vh;
+  height: 90vh;
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
-  padding-bottom: 40px;
 }
 
 .project-card {
-  width: 32vw;
+  width: 80%;
+  height: 75%;
   background-color: white;
   box-shadow: 7px 4px 8px -9px #000000;
   margin: 40px 40px 0 40px;
@@ -14,4 +15,10 @@
 
 .project-card:hover {
   box-shadow: 8px 5px 9px -9px #000000;
+}
+
+.project-image {
+  width: 95%;
+  padding: 42px 18px 42px 28px;
+  margin: auto;
 }

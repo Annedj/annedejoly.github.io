@@ -1,5 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css?family=Karla|Roboto:100&display=swap');
 */
 /*Components*/
-@import url('stylesheets/pages/_index.css');
-@import url('stylesheets/sections/_index.css');
+@import url('stylesheets/pages/index.css');
+@import url('stylesheets/sections/index.css');
