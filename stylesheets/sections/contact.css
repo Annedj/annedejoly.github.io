@@ -16,3 +16,12 @@
   margin: 50px auto 20px auto;
   padding-top: 1px;
 }
+
+.link.contact {
+  margin-top: 20px;
+  color: #008073;
+}
+
+.link.contact:hover {
+  font-size: 25px;
+}
